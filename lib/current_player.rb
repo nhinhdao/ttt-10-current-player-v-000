@@ -2,8 +2,9 @@ board = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
 
 def turn_count(board)
       count = 0
-      board.each{|token| token != " "}
-                  count += 1
+      board.each do |token|
+            token != " "
+            count += 1
       return count
 end
 
