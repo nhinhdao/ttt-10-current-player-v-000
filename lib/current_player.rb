@@ -4,7 +4,6 @@ def turn_count(board)
       count = 0
       board.each{|token| token != " "}
                   count += 1
-      end
       return count
 end
 
